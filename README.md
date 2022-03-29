@@ -1,29 +1,89 @@
-# COSC2759 Assignment 1
-## Notes App - CI Pipeline
-- Full Name: **FILL IN**
-- Student ID: **FILL IN**
+# noteApp
 
-### Guidance (remove this section before final submission)
+## Simple NodeJS app to keep a record of __NOTES__ in mongoDB database
 
-1. Refer for assignment specification `Marking Guide` for details of what should appear in this README.
+### made using Express, Mongoose and other dependencies like body-parser, multer, method-override, express-session, connect-flash, async etc
 
-1. If you do not see an `Actions` tab in your GitHub, email ashley.mallia@rmit.edu.au with URL to your repository, so that it can be enabled.
+### Authentication using Passport, Crypto and nodemailer
 
-1. Implement your CI pipeline in the directory `.github/workflows`.
+### Ejs view engine, Bootstrap and Vanilla JavaScript
 
-1. Refer to [src/README.md](/src/README.md) for important details on building and testing the application.
+## Steps to Run this Project
 
-1. Commit images to the `img` directory and add them like 
-    ```html
-    <img src="/img/md.png" style="height: 70px;"/>
-    ```
-    <img src="/img/md.png" style="height: 70px;"/>
+### 1. Clone the Repo
 
+### 2. Connect to mongoDB database defining **_DATABASE_** varriable in **config.env**
 
-## 1. Heading
-### 1.1 Subheading 
-### 1.2 Subheading 
+### 3. Run Commands
+>
+> * npm install
+> * nodemon
 
-## 2. Heading
-### 2.1 Subheading 
-### 2.2 Subheading 
+# notes-app
+
+ it is a notes app api with authentication made with nodejs + express + mongodb  
+
+# run 
+
+* git clone
+* npm i
+* npm start
+
+# env variables
+
+  PRIVATEKEY <br/>
+  MONGO_URL<br/>
+  PORT
+  
+### V-1.0.2 updates
+>
+> * Added Authentication to use app
+> * Notes Panel still kept public
+> * Author name tails Title after Adding or Editing a note
+> * Functionality to Reset Password using email based authentication
+
+### V-1.0.1 updates
+>
+> * Added uploading image
+> * Separate page for viewing note
+> * Dark Mode in alfa
+> * Added more bugs to fix later 😉
+
+#### Viewing a Note
+>
+> ![list_of_notes](/demo_gifs/viewing_a_note.gif)
+
+#### Added Image Uploads
+>
+> ![list_of_notes](/demo_gifs/uploading_a_image.gif)
+
+#### Dark Mode Alfa
+>
+> ![list_of_notes](/demo_gifs/darkMode.gif)
+
+## Preview
+
+> ### 1. List of notes
+>
+> ![list_of_notes](/demo_gifs/noteList.png)
+>
+> ### 2. Adding a note
+>
+> ![list_of_notes](/demo_gifs/adding_a_note.gif)
+>
+> ### 3. Editing a note
+>
+> ![list_of_notes](/demo_gifs/editing_a_note.gif)
+>
+> ### 3. Searching a note
+>
+> ![list_of_notes](/demo_gifs/search_a_note.gif)
+>
+> ### 4. Deleting a note
+>
+> ![list_of_notes](/demo_gifs/deleting_a_note.gif)
+>
+> ### 5. Deleting a tag
+>
+>![list_of_notes](/demo_gifs/deleting_a_tag.gif)
+>
