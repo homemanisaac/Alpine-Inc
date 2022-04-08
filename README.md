@@ -1,5 +1,8 @@
 Students Name: ZINYI ZENG
-STUDENTS REGESTRATION : S3673832
+
+STUDENTS REGISTRATION : S3673832
+
+ https://github.com/rmit-computingtechnologies/cosc2759-assignment-1-<S3673832>
 
 # noteApp
 
