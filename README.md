@@ -1,3 +1,6 @@
+Students Name: ZINYI ZENG
+STUDENTS REGESTRATION : S3673832
+
 # noteApp
 
 ## Simple NodeJS app to keep a record of __NOTES__ in mongoDB database
